@@ -1,0 +1,14 @@
+{
+    "linters": {
+      "*.{js,jsx}": [
+        "prettier --write",
+        "eslint --fix",
+        "git add"
+      ],
+      "ignore": [
+        "ios",
+        "android",
+        "node_modules"
+      ]
+    }
+}
